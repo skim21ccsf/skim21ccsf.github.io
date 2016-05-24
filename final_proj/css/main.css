@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:700,400);
+
+/*basic layout*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html    {
+    background-color: #672424;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+body    {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Arimo', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+header  {
+    margin: 15px 1165px 0px 0px;
+    padding: 30px 0px 30px 30px;
+    background-color:#211f1f;
+}
+
+footer  {
+}
+
+
+/*site nav*/
+
+nav {
+    height: 50px;
+    margin: 0px 0px 30px 775px;
+    padding: 30px 30px 0px 0px;
+    text-align: right;
+    background-color: #211f1f; 
+}
+
+ul  {
+    list-style-type: none;
+}
+
+li  {
+    display: inline;
+    padding-left: 20px;
+    
+}
+
+a   {
+    text-decoration: none;
+    padding: 7px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color: #ffda41;
+    color: #000000;
+}
+
+.a_current  {
+    font-weight: 700;
+    color: #ffda41;
+}
+
+
+/*site content*/
+
+.index_bg  {
+       background-image:url(../images/greenwich3.JPG);
+}
+
+.map_bg  {
+    background-image: url(../images/map.JPG);
+}
+
+.fave_bg  {
+    background-image: url(../images/balboa1.JPG);
+}
+
+.warning_bg  {
+    background-image: url(../images/greenwich1.JPG);
+}
+
+.stories_bg  {
+    background-image: url(../images/ftrain.JPG);
+}
+
+h1  {
+    font-weight: 700px;
+    text-align: left;    
+}
+
+.rotate90 {
+    transform: rotate(90deg);
+}
+
+p   {
+    background-color: rgba(33, 31, 31, 0.9);
+    width: 600px;
+    margin: 500px auto 0px auto;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: left;
+}
